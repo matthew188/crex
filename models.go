@@ -3,7 +3,7 @@ package crex
 import (
 	"time"
 
-	"github.com/rocketlaunchr/dataframe-go"
+	"github.com/matthew188/dataframe-go"
 )
 
 type Balance struct {

@@ -14,11 +14,13 @@ require (
 	github.com/frankrap/huobi-api v1.0.2
 	github.com/frankrap/okex-api v1.0.4
 	github.com/go-echarts/go-echarts v1.0.0
+	github.com/guptarohit/asciigraph v0.5.5 // indirect
 	github.com/json-iterator/go v1.1.12
+	github.com/matthew188/dataframe-go v0.0.0-20220627041442-9243605075ac // indirect
+	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/micro/go-micro v1.18.0 // indirect
-	github.com/pelletier/go-toml v1.7.0 // indirect
+	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/rakyll/statik v0.1.7
-	github.com/rocketlaunchr/dataframe-go v0.0.0-20210217092801-7a54a6d5685b
 	github.com/sirupsen/logrus v1.8.1
 	github.com/sony/sonyflake v1.0.0
 	github.com/spf13/cast v1.4.1
@@ -26,5 +28,7 @@ require (
 	github.com/tidwall/gjson v1.14.0
 	go.mongodb.org/mongo-driver v1.8.4
 	go.uber.org/zap v1.21.0
+	golang.org/x/exp v0.0.0-20220613132600-b0d781184e0d // indirect
+	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 )
