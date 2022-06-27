@@ -16,7 +16,7 @@ require (
 	github.com/go-echarts/go-echarts v1.0.0
 	github.com/guptarohit/asciigraph v0.5.5 // indirect
 	github.com/json-iterator/go v1.1.12
-	github.com/matthew188/dataframe-go v0.0.0-20220627041442-9243605075ac // indirect
+	github.com/matthew188/dataframe-go v0.0.0-20220627041442-9243605075ac
 	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/micro/go-micro v1.18.0 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
