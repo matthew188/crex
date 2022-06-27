@@ -1,10 +1,11 @@
 package bybit
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/configtest"
 	"testing"
 	"time"
+
+	. "github.com/matthew188/crex"
+	"github.com/matthew188/crex/configtest"
 )
 
 func testExchange() Exchange {

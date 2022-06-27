@@ -1,12 +1,13 @@
 package okexfutures
 
 import (
-	"github.com/coinrust/crex/configtest"
 	"log"
 	"testing"
 	"time"
 
-	. "github.com/coinrust/crex"
+	"github.com/matthew188/crex/configtest"
+
+	. "github.com/matthew188/crex"
 )
 
 func testExchange() Exchange {

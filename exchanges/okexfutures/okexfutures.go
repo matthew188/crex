@@ -2,14 +2,15 @@ package okexfutures
 
 import (
 	"fmt"
-	"github.com/coinrust/crex/utils"
-	"github.com/spf13/cast"
 	"strconv"
 	"strings"
 	"time"
 
-	. "github.com/coinrust/crex"
+	"github.com/matthew188/crex/utils"
+	"github.com/spf13/cast"
+
 	"github.com/frankrap/okex-api"
+	. "github.com/matthew188/crex"
 )
 
 // OkexFutures the Okex futures exchange

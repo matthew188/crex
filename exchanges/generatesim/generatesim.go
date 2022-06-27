@@ -3,12 +3,13 @@ package generatesim
 import (
 	"errors"
 	"fmt"
-	"github.com/beaquant/utils/logger"
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/dataloader"
-	"github.com/sirupsen/logrus"
 	"math"
 	"time"
+
+	"github.com/beaquant/utils/logger"
+	. "github.com/matthew188/crex"
+	"github.com/matthew188/crex/dataloader"
+	"github.com/sirupsen/logrus"
 )
 
 // GenerateSim the generate/common exchange for backtest

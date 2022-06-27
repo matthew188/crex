@@ -1,15 +1,15 @@
-<div align=center><img src="https://raw.githubusercontent.com/coinrust/crex/master/images/logo.png" /></div>
+<div align=center><img src="https://raw.githubusercontent.com/matthew188/crex/master/images/logo.png" /></div>
 
 <p align="center">
   <a href="https://github.com/golang/go">
-    <img alt="GitHub go.mod Go version" src="https://img.shields.io/github/go-mod/go-version/coinrust/crex">
+    <img alt="GitHub go.mod Go version" src="https://img.shields.io/github/go-mod/go-version/matthew188/crex">
   </a>
 
-  <a href="https://github.com/coinrust/crex/master/LICENSE">
+  <a href="https://github.com/matthew188/crex/master/LICENSE">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
   </a>
-  <a href="https://www.travis-ci.com/coinrust/crex">
-    <img src="https://www.travis-ci.com/coinrust/crex.svg?branch=master" alt="build status">
+  <a href="https://www.travis-ci.com/matthew188/crex">
+    <img src="https://www.travis-ci.com/matthew188/crex.svg?branch=master" alt="build status">
   </a>
 </p>
 
@@ -20,11 +20,11 @@
 **CREX** 是一个用Golang语言开发的量化交易库。支持`tick`级别数字币期货平台的回测和实盘。实盘与回测无缝切换，无需更改代码。
 
 ## 回测
-示例 [@backtest](https://github.com/coinrust/crex/blob/master/examples/backtest/main.go)
+示例 [@backtest](https://github.com/matthew188/crex/blob/master/examples/backtest/main.go)
 
 ### 交易结果
-<div align=center><img src="https://raw.githubusercontent.com/coinrust/crex/master/images/trade_result.png" /></div>
-<div align=center><img src="https://raw.githubusercontent.com/coinrust/crex/master/images/trade_history_report.png" /></div>
+<div align=center><img src="https://raw.githubusercontent.com/matthew188/crex/master/images/trade_result.png" /></div>
+<div align=center><img src="https://raw.githubusercontent.com/matthew188/crex/master/images/trade_history_report.png" /></div>
 
 ## 开源策略
 [https://github.com/coinrust/trading-strategies](https://github.com/coinrust/trading-strategies)
@@ -42,22 +42,22 @@ CREX库当前支持以下8个加密货币交易市场和交易API
 
 | logo                                                                                                                                             | id             | name                                                                      | ver | ws  | doc                                                               |
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------- | ------------------------------------------------------------------------- | --- | --- | ----------------------------------------------------------------- |
-| [![binance](https://raw.githubusercontent.com/coinrust/crex/master/images/binance.jpg)](https://www.binance.com/cn/register?ref=10916733)        | binancefutures | [Binance Futures](https://www.binance.com/cn/register?ref=10916733)       | 1   | N   | [API](https://binance-docs.github.io/apidocs/futures/cn/)         |
-| [![bitmex](https://raw.githubusercontent.com/coinrust/crex/master/images/bitmex.jpg)](https://www.bitmex.com/register/o0Duru)                    | bitmex         | [BitMEX](https://www.bitmex.com/register/o0Duru)                          | 1   | Y   | [API](https://www.bitmex.com/app/apiOverview)                     |
-| [![deribit](https://raw.githubusercontent.com/coinrust/crex/master/images/deribit.jpg)](https://www.deribit.com/reg-7357.93)                     | deribit        | [Deribit](https://www.deribit.com/reg-7357.93)                            | 2   | Y   | [API](https://docs.deribit.com/)                                  |
-| [![bybit](https://raw.githubusercontent.com/coinrust/crex/master/images/bybit.jpg)](https://www.bybit.com/app/register?ref=qQggy)                | bybit          | [Bybit](https://www.bybit.com/app/register?ref=qQggy)                     | 2   | Y   | [API](https://bybit-exchange.github.io/docs/inverse/)             |
-| [![huobi](https://raw.githubusercontent.com/coinrust/crex/master/images/huobi.jpg)](https://www.huobi.io/zh-cn/topic/invited/?invite_code=7hzc5) | hbdm           | [Huobi DM](https://www.huobi.io/zh-cn/topic/invited/?invite_code=7hzc5)   | 1   | Y   | [API](https://docs.huobigroup.com/docs/dm/v1/cn/)                 |
-| [![huobi](https://raw.githubusercontent.com/coinrust/crex/master/images/huobi.jpg)](https://www.huobi.io/zh-cn/topic/invited/?invite_code=7hzc5) | hbdmswap       | [Huobi Swap](https://www.huobi.io/zh-cn/topic/invited/?invite_code=7hzc5) | 1   | Y   | [API](https://docs.huobigroup.com/docs/coin_margined_swap/v1/cn/) |
-| [![okex](https://raw.githubusercontent.com/coinrust/crex/master/images/okex.jpg)](https://www.okex.com/join/1890951)                             | okexfutures    | [OKEX Futures](https://www.okex.com/join/1890951)                         | 3   | Y   | [API](https://www.okex.me/docs/zh/#futures-README)                |
-| [![okex](https://raw.githubusercontent.com/coinrust/crex/master/images/okex.jpg)](https://www.okex.com/join/1890951)                             | okexswap       | [OKEX Swap](https://www.okex.com/join/1890951)                            | 3   | Y   | [API](https://www.okex.me/docs/zh/#swap-README)                   |
+| [![binance](https://raw.githubusercontent.com/matthew188/crex/master/images/binance.jpg)](https://www.binance.com/cn/register?ref=10916733)        | binancefutures | [Binance Futures](https://www.binance.com/cn/register?ref=10916733)       | 1   | N   | [API](https://binance-docs.github.io/apidocs/futures/cn/)         |
+| [![bitmex](https://raw.githubusercontent.com/matthew188/crex/master/images/bitmex.jpg)](https://www.bitmex.com/register/o0Duru)                    | bitmex         | [BitMEX](https://www.bitmex.com/register/o0Duru)                          | 1   | Y   | [API](https://www.bitmex.com/app/apiOverview)                     |
+| [![deribit](https://raw.githubusercontent.com/matthew188/crex/master/images/deribit.jpg)](https://www.deribit.com/reg-7357.93)                     | deribit        | [Deribit](https://www.deribit.com/reg-7357.93)                            | 2   | Y   | [API](https://docs.deribit.com/)                                  |
+| [![bybit](https://raw.githubusercontent.com/matthew188/crex/master/images/bybit.jpg)](https://www.bybit.com/app/register?ref=qQggy)                | bybit          | [Bybit](https://www.bybit.com/app/register?ref=qQggy)                     | 2   | Y   | [API](https://bybit-exchange.github.io/docs/inverse/)             |
+| [![huobi](https://raw.githubusercontent.com/matthew188/crex/master/images/huobi.jpg)](https://www.huobi.io/zh-cn/topic/invited/?invite_code=7hzc5) | hbdm           | [Huobi DM](https://www.huobi.io/zh-cn/topic/invited/?invite_code=7hzc5)   | 1   | Y   | [API](https://docs.huobigroup.com/docs/dm/v1/cn/)                 |
+| [![huobi](https://raw.githubusercontent.com/matthew188/crex/master/images/huobi.jpg)](https://www.huobi.io/zh-cn/topic/invited/?invite_code=7hzc5) | hbdmswap       | [Huobi Swap](https://www.huobi.io/zh-cn/topic/invited/?invite_code=7hzc5) | 1   | Y   | [API](https://docs.huobigroup.com/docs/coin_margined_swap/v1/cn/) |
+| [![okex](https://raw.githubusercontent.com/matthew188/crex/master/images/okex.jpg)](https://www.okex.com/join/1890951)                             | okexfutures    | [OKEX Futures](https://www.okex.com/join/1890951)                         | 3   | Y   | [API](https://www.okex.me/docs/zh/#futures-README)                |
+| [![okex](https://raw.githubusercontent.com/matthew188/crex/master/images/okex.jpg)](https://www.okex.com/join/1890951)                             | okexswap       | [OKEX Swap](https://www.okex.com/join/1890951)                            | 3   | Y   | [API](https://www.okex.me/docs/zh/#swap-README)                   |
 
 ## 示例
 ```golang
 package main
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/exchanges"
+	. "github.com/matthew188/crex"
+	"github.com/matthew188/crex/exchanges"
 	"log"
 	"time"
 )
@@ -136,8 +136,8 @@ func main() {
 package main
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/exchanges"
+	. "github.com/matthew188/crex"
+	"github.com/matthew188/crex/exchanges"
 	"log"
 )
 

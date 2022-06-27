@@ -3,11 +3,12 @@ package bybit
 import (
 	"errors"
 	"fmt"
-	. "github.com/coinrust/crex"
-	"github.com/frankrap/bybit-api/rest"
 	"log"
 	"strings"
 	"time"
+
+	"github.com/frankrap/bybit-api/rest"
+	. "github.com/matthew188/crex"
 )
 
 // Bybit the Bybit exchange

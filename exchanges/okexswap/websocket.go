@@ -1,11 +1,12 @@
 package okexswap
 
 import (
-	"github.com/chuckpreslar/emission"
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/utils"
-	"github.com/frankrap/okex-api"
 	"time"
+
+	"github.com/chuckpreslar/emission"
+	"github.com/frankrap/okex-api"
+	. "github.com/matthew188/crex"
+	"github.com/matthew188/crex/utils"
 )
 
 type SwapWebSocket struct {

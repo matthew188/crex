@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/configtest"
+	. "github.com/matthew188/crex"
+	"github.com/matthew188/crex/configtest"
 )
 
 func testExchange() Exchange {

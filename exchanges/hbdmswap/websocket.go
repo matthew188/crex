@@ -2,11 +2,12 @@ package hbdmswap
 
 import (
 	"fmt"
-	"github.com/chuckpreslar/emission"
-	. "github.com/coinrust/crex"
-	"github.com/frankrap/huobi-api/hbdmswap"
 	"strings"
 	"time"
+
+	"github.com/chuckpreslar/emission"
+	"github.com/frankrap/huobi-api/hbdmswap"
+	. "github.com/matthew188/crex"
 )
 
 type SwapWebSocket struct {

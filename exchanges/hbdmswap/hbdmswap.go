@@ -2,11 +2,12 @@ package hbdmswap
 
 import (
 	"fmt"
-	. "github.com/coinrust/crex"
-	"github.com/frankrap/huobi-api/hbdmswap"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/frankrap/huobi-api/hbdmswap"
+	. "github.com/matthew188/crex"
 )
 
 const StatusOK = "ok"

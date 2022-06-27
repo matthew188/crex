@@ -2,9 +2,10 @@ package deribit
 
 import (
 	"fmt"
+
 	"github.com/MauriceGit/skiplist"
-	. "github.com/coinrust/crex"
 	"github.com/frankrap/deribit-api/models"
+	. "github.com/matthew188/crex"
 )
 
 type DobItem struct {

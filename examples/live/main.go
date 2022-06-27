@@ -1,10 +1,11 @@
 package main
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/exchanges"
 	"log"
 	"time"
+
+	. "github.com/matthew188/crex"
+	"github.com/matthew188/crex/exchanges"
 )
 
 type BasicStrategy struct {

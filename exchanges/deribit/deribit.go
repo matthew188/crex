@@ -3,11 +3,12 @@ package deribit
 import (
 	"errors"
 	"fmt"
-	. "github.com/coinrust/crex"
-	"github.com/frankrap/deribit-api"
-	"github.com/frankrap/deribit-api/models"
 	"log"
 	"time"
+
+	"github.com/frankrap/deribit-api"
+	"github.com/frankrap/deribit-api/models"
+	. "github.com/matthew188/crex"
 )
 
 // Deribit the deribit exchange

@@ -2,11 +2,12 @@ package hbdm
 
 import (
 	"fmt"
-	. "github.com/coinrust/crex"
-	"github.com/frankrap/huobi-api/hbdm"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/frankrap/huobi-api/hbdm"
+	. "github.com/matthew188/crex"
 )
 
 const StatusOK = "ok"

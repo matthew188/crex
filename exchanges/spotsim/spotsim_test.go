@@ -1,8 +1,9 @@
 package spotsim
 
 import (
-	"github.com/coinrust/crex"
 	"testing"
+
+	"github.com/matthew188/crex"
 )
 
 var ss = New(

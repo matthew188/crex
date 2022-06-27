@@ -1,8 +1,9 @@
 package exsim
 
 import (
-	. "github.com/coinrust/crex"
 	"testing"
+
+	. "github.com/matthew188/crex"
 )
 
 func TestCalcPnl(t *testing.T) {
