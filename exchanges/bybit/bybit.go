@@ -24,13 +24,13 @@ func (b *Bybit) GetName() (name string) {
 }
 
 func (b *Bybit) GetTime() (tm int64, err error) {
-	tm, err = b.client.GetServerTime()
+	_, _, tm, err = b.client.GetServerTime()
 	return
 }
 
 func (b *Bybit) GetBalance(currency string) (result *Balance, err error) {
 	var balance rest.Balance
-	balance, err = b.client.GetWalletBalance(currency)
+	_, _, balance, err = b.client.GetWalletBalance(currency)
 	if err != nil {
 		return
 	}
@@ -164,7 +164,7 @@ func (b *Bybit) placeOrder(symbol string, direction Direction, orderType OrderTy
 		timeInForce = "GoodTillCancel"
 	}
 	var order rest.Order
-	order, err = b.client.CreateOrder(
+	_, _, order, err = b.client.CreateOrder(
 		side,
 		_orderType,
 		price,
